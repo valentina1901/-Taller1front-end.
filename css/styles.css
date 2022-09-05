@@ -1,0 +1,87 @@
+/*selecciona todo el contenido*/
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:black;
+}
+
+body{
+    margin:0;
+    background-color: maroon;
+}
+
+.container{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    /* vh total */
+    height:100vh;
+}
+
+.calculador{
+    display:grid;
+    /*4 columnas y cada columna se repite hacia abajo de 75 de largo*/
+    grid-template-columns:repeat(4, 75px);  
+    /*160px alto*/
+    grid-template-rows: 160px repeat(5,75px);
+    background-color: rgb(245, 209, 143);
+    padding: 15px;
+    border-radius: 20px;
+    /*sombra rpimer valor eje x 10px hacia la derecha 10px hacia abajo */
+    /*el 44 del color negro es la opacidad*/
+    box-shadow:  10px 10px 4px 1px #00000044;
+}
+
+.pantalla{
+    display: flex;
+    grid-column: 1 / -1;
+    padding: 10px;
+    background-color: #000;
+    border-radius: 15px;
+    margin: 10px;
+    align-items: flex-end;
+    /*flex column para que las lineas se separen(un enter)*/
+    flex-direction: column;
+    box-shadow: 4px 5px 7px 1px #584444 ;
+    /*separacion*/  
+    justify-content: space-between;
+    text-align: right;  
+    /*break para trabajar con dos lineas*/
+    word-break: break-all;
+
+}
+
+#linearriba{
+    color: rgb(253, 227, 180) ;
+    margin: 10px;
+    font-size: 2.5em;
+}
+
+#lineabajo{
+    color: rgb(253, 227, 180) ;
+    margin: 10px;
+    font-size:1.8em;
+}
+
+button{
+    /*para que salga como el seleccionar encima del boton*/
+    cursor:pointer;
+    margin: 5px;
+    border-radius: 30px;
+    font-size: 1.5em;
+    background-color: rgb(245, 209, 143);
+    border:none;
+    box-shadow: 4px 5px 7px 1px #000 ;
+}
+
+
+button:active{
+    background-color: rgb(231, 186, 103);
+}
+
+.col-2{
+    /*la clase col-2 se espanda 2 campos*/
+    grid-column: span 2;
+}
+
+
+

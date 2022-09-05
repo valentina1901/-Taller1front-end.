@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"> <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="img/calcular.png">
+    <script src="js/pantalla.js" type="text/javascript"></script>
+    <script src="js/Calculador.js" type="text/javascript"></script>
+    <!--defer para cargar sin necesidad de ponerlo de ultimas-->
+    <script src="js/dom.js" type="text/javascript" defer></script>
+
+    <title>Calculadora</title>
+</head>
+<body>
+
+  <div class="container">
+    <div class="calculador">
+    <div class="pantalla">
+      <div id="linearriba"></div>
+      <div id="lineabajo"></div>
+    </div>
+        <!--col-2 para ocupar dos espacios-->
+        <button onclick="Pantalla.borrartodo()" class="col-2">C</button>
+        <!--&larr;  representa la flecha (borrar)-->
+        <button onclick="Pantalla.borraruno()">&larr;</button>
+        <button class="numero" value="dividir">/</button>
+        <button class="numero">7</button>
+        <button class="numero">8</button>
+        <button class="numero">9</button>
+        <button class="funcion" value="multiplicar">x</button>
+        <button class="numero">4</button>
+        <button class="numero">5</button>
+        <button class="numero">6</button>
+        <button class="funcion" value="restar">-</button>
+        <button class="numero">1</button>
+        <button class="numero">2</button>
+        <button class="numero">3</button>
+        <button class="funcion" value="sumar">+</button>
+        <button class="col-2 numero">0</button>
+        <!--el punto cuenta como numero porque se incluye en los valores-->
+        <button class="numero">.</button>
+        <button class="funcion" value="igual">=</button>
+  </div>
+  </div>
+    
+</body>
+</html>
