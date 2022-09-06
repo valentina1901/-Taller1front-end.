@@ -1,0 +1,57 @@
+*{ 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+          
+body{
+    background-color: bisque;
+}
+
+div{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.palabra{
+    display: flex;
+    flex-direction: column; 
+    margin-top: 3em;
+    font-size: 3.5rem;        
+}
+
+.palabra input{
+    margin-top: 1em;
+    font-size: 1.5rem; 
+}
+
+input.text, textarea.text {
+    background: silver;
+    border: 1px solid #393939;
+    border-radius: 5px 5px 5px 5px;
+    color: #393939;
+    font-size: 12px;
+    padding: 5px;
+ }
+
+.eleccion{
+    display: flex;
+    padding: 20px;  
+    margin: 40px;
+    /*flex column para que las lineas se separen(un enter)*/
+    flex-direction: column; 
+    margin-top: 3em;
+}
+        
+
+button{
+    color: rgb(224, 218, 218);
+    /*para que salga como el selec  cionar encima del boton*/
+    cursor:pointer;
+    margin: 5px;    
+    border-radius: 20px;
+    font-size: 1.5em;
+    background-color: rgb(167, 4, 4);
+    border:none;
+    box-shadow: 4px 5px 7px 1px #000 ;
+    width: 20em;
+}
