@@ -93,7 +93,8 @@ a{
     border:none;
     box-shadow: 4px 5px 7px 1px #000 ;
     width: 20em;
-    text-decoration: none
+    text-decoration: none;
+    justify-content:center;
 }
 
 
