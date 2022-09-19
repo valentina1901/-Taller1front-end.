@@ -1,11 +1,11 @@
 
- let C,K,F;
- function reseT()
- {
- C=0;K=0;F=0;
- }
+    let C,K,F;
+    function reseT()
+    {
+    C=0;K=0;F=0;
+    }
 
-function calcular() {
+    function calcular() {
 
     let opcion= document.getElementById("accion").value 
     if(opcion !='')

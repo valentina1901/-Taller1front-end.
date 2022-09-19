@@ -17,6 +17,34 @@ body{
     height:100vh;
 }
 
+.principio {
+    display: flex;
+    padding: 20px;  
+    margin: 40px;
+    /*flex column para que las lineas se separen(un enter)*/
+    flex-direction: column; 
+    margin-top: 3em;
+    align-items: center;
+}
+
+.principio a{
+    color: rgb(14, 12, 12);
+    /*para que salga como el selec  cionar encima del boton*/
+    cursor:pointer;
+    margin: 5px;    
+    border-radius: 20px;
+    font-size: 1.5em;
+    background-color: rgb(187, 126, 126);
+    border:none;
+    box-shadow: 4px 5px 7px 1px rgb(54, 54, 54) ;
+    width: 20em;
+    text-align: center;
+}
+.principio h2{
+    text-align: center;
+    color: rgb(224, 193, 152);
+}
+
 .calculador{
     display:grid;
     /*4 columnas y cada columna se repite hacia abajo de 75 de largo*/
