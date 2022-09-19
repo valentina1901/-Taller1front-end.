@@ -11,16 +11,25 @@
 </head>
 <body>
 
-    <div class="grados">
-        <label for="grados">Digita los grados</label>
-        <input type="text" id="grados" value="">
-    </div>
-          
-    <div class="seleccion"> 
-             <button onclick="celsius()"> Convertir de celsius a fahrenheit </button> 
-             <button onclick="fahrenheit()"> Convertir de fahrenheit a celsius</button>
-             <button onclick="kelvin()"> Convertir de fahrenheit a kelvin </button>
-        </div>
+    <form action="">  
+        
+        <a href="index.html">Regresar</a>
+       <p>Que conversion desea realizar<br>
+       <select id = "accion" name="accion">
+       <option  value="celsius a kelvin">Celsius a Kelvin</option>
+       <option  value="fahrenheit a celsius">Fahrenheit a Celsius</option>
+       <option  value="fahrenheit a kelvin">Fahrenheit a Kelvin </option>
+       <option  value="celsius a fahrenheit">Celsius a Fahrenheit</option>
+       <option value="kelvin a fahrenheit">Kelvin a Fahrenheit</option>
+       <option  value="kelvin a celsius">Kelvin a Celsius</option>
+       </select></p>
+        <label>Digite el numero que desea convertir:</label><br>
+         <input type="text"  id ="grados" name="grados">
+        <br>
+       <button onclick="calcular()">Calcular</button>  
+
+    </form>
+       
 
 </body>
 </html>

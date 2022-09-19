@@ -17,13 +17,25 @@ div{
 .palabra{
     display: flex;
     flex-direction: column; 
-    margin-top: 3em;
+    margin-top: 1em;
     font-size: 3.5rem;        
 }
 
 .palabra input{
-    margin-top: 1em;
+    margin-top: 1rem;
     font-size: 1.5rem; 
+}
+
+.palabra a{
+    color: rgb(224, 218, 218);
+    /*para que salga como el selec  cionar encima del boton*/
+    cursor:pointer;
+    margin: 5px;   
+    border-radius: 20px;
+    font-size: 0.5em;
+    background-color: rgb(167, 4, 4);
+    text-decoration: none;
+    box-shadow: 4px 5px 7px 1px rgb(54, 54, 54) ;
 }
 
 input.text, textarea.text {
@@ -60,6 +72,11 @@ button{
 
 /*ejercicio convertidor*/
 
+form{
+    text-align: center;
+    margin-top: 10%;
+}
+
 .grados{
     display: flex;
     flex-direction: column; 
@@ -79,5 +96,50 @@ button{
     /*flex column para que las lineas se separen(un enter)*/
     flex-direction: column; 
     margin-top: 2em;
+}
+
+a{
+    color: rgb(224, 218, 218);
+    /*para que salga como el selec  cionar encima del boton*/
+    cursor:pointer;
+    margin: 5px; 
+    padding: 5px;   
+    border-radius: 20px;
+    font-size: 1.5em;
+    background-color: rgb(167, 4, 4);
+    text-decoration: none;
+    box-shadow: 4px 5px 7px 1px rgb(54, 54, 54) ;
+}
+p{
+    font-size: 1.5em;
+    margin-top: 1em;
+}
+
+form label{
+    font-size: 1.5em;
+    margin-top: 1em;
+}
+input{
+    margin-top: 1em;
+    font-size: 1.5rem; 
+}
+
+select{
+    margin-top: 1em;
+    font-size: 1.5rem; 
+}
+
+form button{
+    color: rgb(224, 218, 218);
+    /*para que salga como el selec  cionar encima del boton*/
+    cursor:pointer;
+    margin: 5px;    
+    border-radius: 20px;
+    font-size: 1.5em;
+    background-color: rgb(167, 4, 4);
+    border:none;
+    box-shadow: 4px 5px 7px 1px rgb(51, 51, 51) ;
+    width: 10em;
+    padding: 5px;
 }
      
