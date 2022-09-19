@@ -12,6 +12,8 @@ div{
     align-items:center;
 }
 
+/*ejercicio palabra*/
+
 .palabra{
     display: flex;
     flex-direction: column; 
@@ -55,3 +57,27 @@ button{
     box-shadow: 4px 5px 7px 1px #000 ;
     width: 20em;
 }
+
+/*ejercicio convertidor*/
+
+.grados{
+    display: flex;
+    flex-direction: column; 
+    margin-top: 3em;
+    font-size: 3.5rem;        
+}
+
+.grados input{
+    margin-top: 1em;
+    font-size: 1.5rem; 
+}
+
+.seleccion{
+    display: flex;
+    padding: 20px;  
+    margin: 40px;
+    /*flex column para que las lineas se separen(un enter)*/
+    flex-direction: column; 
+    margin-top: 2em;
+}
+     
