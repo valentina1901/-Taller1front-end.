@@ -1,31 +1,28 @@
 
+
+function tipotriangulo() {
     
+    let a=document.getElementById('a').value
+    parseFloat(a)
+    let b=document.getElementById('b').value
+    parseFloat(b)
+    let c=document.getElementById('c').value
+    parseFloat(c)
 
-    function resolver() {
+    //if a==b && b==c && a==c) lados iguales
+    if (a==b && b==c && a==c){
+        alert('El triangulo es equilatero')
 
-    let opcion= document.getElementById("accion").value 
-    if(opcion !='')
-    {
-        switch (opcion) {
+    //(a==b || b==c || a==c) dos lados iguales
+    } else if(a==b || b==c || a==c){ 
+        alert('El triangulo es isosceles')
 
-            //Equilatero 
-            case 'Tres lados iguales':
+    //(a!=b && b!=c) ningun lado igual 
+    } else if(a!=b && b!=c){
+        alert('El triangulo es escaleno')
 
-            break;
+    } else { 
+        alert(' Ingrese un numero valido ')
 
-            //Isosceles
-            case 'Dos lados iguales':
-
-            break;
-
-            //Escaleno
-            case 'Tres lados desiguales':
-
-            
-            break;
-
-        }
-  
-        } else {alert("Error");}
-        
     }
+}

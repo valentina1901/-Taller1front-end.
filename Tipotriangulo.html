@@ -4,17 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/triangulos.png" type="image/x-icon">
+    <script src="js/tipotriangulo.js" type="text/javascript"></script>
     <link rel="stylesheet" href="css/stylep.css">
 
     <title>Tipo de Triangulo</title>
 </head>
 <body>
     
-    <div>
-    <a href="index.html">Regresar</a>
-    <label>Digite si los lados son iguales/desiguales y cuantos:</label><br>
-    <input type="text" required id ="resolver" name="resolver">
+    <div class="palabra">
+        <a href="index.html">Regresar</a>
+        <label for="a">Digite lado 1 del triangulo</label>
+        <input type="text" id="a" value="">
+        <label for="b">Digite lado 2 del triangulo</label>
+        <input type="text" id="b" value="">
+        <label for="c">Digite lado 3 del triangulo</label>
+        <input type="text" id="c" value="">
     </div>
-
+    <div class="eleccion">
+       <button onclick="tipotriangulo()">Tipo de triangulo </button>  
+    </div>
 </body>
 </html>

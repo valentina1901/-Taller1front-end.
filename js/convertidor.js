@@ -77,27 +77,3 @@
         } else {alert("Error");}
         
     }
-/*
-function celsius() {
-
-    let celsius=document.getElementById('grados').value
-    let fahrenheit=((celsius*9)/5)+32
-
-    alert("Grados en fahrenheit "+fahrenheit+"")
-}
-
-function fahrenheit() {
-
-    let fahrenheit=document.getElementById('grados').value
-    let celsius=((fahrenheit-32)*5)/9
-
-    alert("Grados en celsius "+celsius+"")
-}
-
-function kelvin() {
-
-    let fahrenheit=document.getElementById('grados').value
-    let kelvin=((fahrenheit-32)*5/9)+273
-
-    alert("Grados en kelvin "+kelvin+"")
-}*/
