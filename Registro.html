@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/registro.png" type="image/x-icon">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="js/recopilar.js" type="text/javascript"></script>
     <link rel="stylesheet" href="css/stylep.css">
 
     <title>Registro de usuarios</title>
@@ -12,5 +14,22 @@
 <body>
     
     <a href="index.html">Regresar</a>
+
+    <form action="" method="post">
+        <ul>
+         
+           <label for="name">Tipo:</label>
+           <input type="text" id="name" name="user_name">
+         
+         
+           <label for="mail">numero:</label>
+           <input type="num" id="num" name="num">
+         
+         
+           <label for="msg">Mensaje:</label>
+           <textarea id="msg" name="user_message"></textarea>
+         
+        </ul>
+       </form>
 </body>
 </html>

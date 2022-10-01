@@ -143,3 +143,22 @@ form button{
     padding: 5px;
 }
      
+.figu{
+    display: flex;
+    padding: 10px;  
+    margin: 20px;
+    /*flex column para que las lineas se separen(un enter)*/
+    flex-direction: column; 
+    margin-top: 2em;
+}
+
+#cover-div {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9000;
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+    opacity: 0.3;
+  }
