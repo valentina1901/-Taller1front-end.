@@ -4,28 +4,135 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/stylep.css">
+    <link rel="stylesheet" href="css/styless.css">
     <link rel="shortcut icon" href="img/figuras.webp" type="image/x-icon">
-    <script src="js/figuras.js" type="text/javascript"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <title>Figuras</title>
     
 </head>
 <body>
-    <a href="index.html">Regresar</a>
+<div class="container">
+<a class="aregre" href="index.html">Regresar</a>
+<h2 >Perimetro y Area</h2>
+<div class="cont2">
+<!--circulo-->    
+<label class="figura"><img src="./img/circulofigu.png" alt=""></label><br>    
+<button type="button"><a href="#miModal" class="area">Area</a></button>
+<div id="miModal" class="modal">
+    <div class="modal-contenido">
+        <h2 class="circulotitle"> Area del Circulo</h2><br>  
+            <img class="relevantes" src="img/circulofigu.png"><br>
+                <label class="label1">Digite el radio del circulo</label><br> 
+                <input type="number" id="radiocirculo"><br>
+            <button class="modclick" type="button" id="calcularcir"><a>Calcular</a></button>
+        <button class="modclick" type="button"><a class="regreso" href="Figuras.html">Cerrar</a></button>
+    </div>  
+</div>
+<button type="button"><a href="#miModal2" class="perimetro">Perimetro</a></button>
+<div id="miModal2" class="modal">
+    <div class="modal-contenido">
+        <h2 class="circulotitle2">Perimetro del Circulo</h2><br>    
+            <img class="relevantes" src="img/circulofigu.png"><br>
+                <label class="label1">Digite el radio del circulo</label><br>
+                <input type="number" id="pericir"><br>
+            <button class="modclick" type="button" id="circal"><a>Calcular</a></button>
+        <button class="modclick" type="button"><a class="regreso" href="Figuras.html">Cerrar</a></button>
+    </div>  
+</div>
+</div><br>
 
-<div class="figu">
-    <div class="figuras">
-        <img src="img/triangulofigu.png" alt="" onclick="alert('Formulario')">
-    </div>
-    <div class="figuras">
-        <img src="img/cuadradofigu.png" alt="" onclick="alert('Formulario')">
-    </div>
-    <div class="figuras">
-        <img src="img/rectangulofigu.png" alt="" onclick="alert('Formulario')">
-    </div>
-    <div class="figuras">
-        <img src="img/circulofigu.png" alt="" onclick="alert('Formulario')">
-    </div>
+<!--triangulo-->
+<div class="cont2">
+<label class="figura"><img src="./img/triangulofigu.png" alt=""></label><br>
+<button type="button"><a href="#miModal5" class="area">Area</a></button>
+<div id="miModal5" class="modal">
+    <div class="modal-contenido">
+        <h2 class="triangulotitle">Area del Triangulo</h2><br>
+            <img class="relevantes" src="img/triangulofigu.png"><br>
+                <label class="label3">Digite la base del triangulo</label>
+                <input type="number" id="triangulobase">
+                <label class="label3">Digite la altura del triangulo</label>
+                <input type="number" id="trianguloaltura"><br>
+            <button class="modclick" type="button" id="calculartri"><a>Calcular</a></button>
+        <button class="modclick" type="button"><a class="regreso" href="Figuras.html">Cerrar</a></button>
+    </div>  
+</div>
+<button type="button"><a href="#miModal6" class="perimetro">Perimetro</a></button>
+<div id="miModal6" class="modal">
+    <div class="modal-contenido">
+        <h2 class="triangulotitle2">Perimetro del triangulo</h2><br>
+            <img class="relevantes" src="img/triangulofigu.png"><br>
+                <label class="label3">Digite lado 1 del triangulo</label>
+                <input type="number" id="lado1">
+                <label class="label3">Digite lado 1 del triangulo</label>
+                <input type="number" id="lado2">
+                <label class="label3">Digite lado 1 del triangulo</label>
+                <input type="number" id="lado3"><br>
+            <button class="modclick" type="button" id="calculartri2"><a>Calcular</a></button>
+        <button class="modclick" type="button"><a class="regreso" href="Figuras.html">Cerrar</a></button>
+    </div>  
+</div>
+</div><br>
+
+
+<!--rectangulo-->
+<div class="cont2">
+<label class="figura"><img src="./img/rectangulofigu.png" alt=""></label> <br>
+<button type="button"><a href="#miModal7" class="area">Area</a></button>
+<div id="miModal7" class="modal">
+    <div class="modal-contenido">
+        <h2 class="rectangulotitle">Area del Rectangulo</h2><br>
+            <img class="relevantes" src="img/rectangulofigu.png"><br>
+                <label class="label4">Digite la base del Rectangulo</label><br>
+                <input type="number" id="rectangulobase"><br>
+                <label class="label4">Digite la altura del Rectangulo</label><br>
+                <input type="number" id="rectanguloaltura"><br>
+            <button class="modclick" type="button" id="rectangulocalculo"><a>Calcular</a></button>
+        <button class="modclick" type="button"><a class="regreso" href="Figuras.html">Cerrar</a></button>
+    </div>  
+</div>
+<button type="button"><a href="#miModal8" class="perimetro">Perimetro</a></button>
+<div id="miModal8" class="modal">
+<div class="modal-contenido">
+    <h2 class="rectangulotitle2">Perimetro Del Rectangulo</h2><br>
+                <img class="relevantes" src="img/rectangulofigu.png"> <br>
+                <label class="label4">Digite la base del Rectangulo</label><br>
+                <input type="number" id="rectangulobase"><br>
+                <label class="label4">Digite la altura del Rectangulo</label><br>
+                <input type="number" id="rectanguloaltura"><br>
+            <button class="modclick" type="button" id="rectangulocalculo2"><a>Calcular</a></button>
+        <button class="modclick" type="button"><a class="regreso" href="Figuras.html">Cerrar</a></button>
+    </div>  
+  </div>
+  </div><br>
+  
+<!--cuadrado-->
+<div class="cont2">
+<label class="figura"><img src="./img/cuadradofigu.png" alt=""></label><br>
+<button type="button"><a href="#miModal3" class="area">Area</a></button>
+<div id="miModal3" class="modal">
+    <div class="modal-contenido">
+        <h2 class="cuadradotitle">Area del Cuadrado</h2><br>
+            <img class="relevantes" src="img/cuadradofigu.png"><br>
+                <label class="label2">Digite el lado del cuadrado</label><br>
+                <input type="number" id="areacuadrado"><br>
+            <button class="modclick" type="button" id="calcuadrado"><a>Calcular</a></button>
+        <button class="modclick" type="button"><a class="regreso" href="#">Cerrar</a></button>
+    </div>  
+</div>
+<button type="button"><a href="#miModal4" class="perimetro">Perímetro</a></button>
+<div id="miModal4" class="modal">
+    <div class="modal-contenido">
+        <h2 class="cuadradotitle2">Perimetro del Cuadrado</h2><br>
+            <img class="relevantes" src="img/cuadradofigu.png"><br>
+                <label class="label2">Ingrese el lado del Cuadrado</label><br>
+                <input type="number" id="cuadradoper"><br>
+            <button class="modclick" type="button" id="calcuadrado2"><a>Calcular</a></button>
+        <button class="modclick" type="button"><a class="regreso" href="#">Cerrar</a></button>
+    </div>  
+</div><br>
  </div>
+</div>
+<script src="js/figuras.js" type="text/javascript"></script>
 </body>
 </html>

@@ -162,3 +162,7 @@ form button{
     background-color: gray;
     opacity: 0.3;
   }
+
+  .container h1{
+    text-align: center;
+  }

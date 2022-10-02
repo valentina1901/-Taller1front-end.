@@ -1,0 +1,278 @@
+/*selecciona todo el contenido*/
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    margin:0;
+    background-color: bisque;
+}
+
+.container .aregre{
+    color: #ffe8e7;
+    /*para que salga como el selec  cionar encima del boton*/
+    cursor:pointer;
+    padding: 10px;   
+    border-radius: 10px;
+    font-size: 1.5em;
+    background-color: #610d0d;
+    border:none;
+    box-shadow: 4px 5px 7px 1px rgb(46, 44, 44) ;
+    width: 16em;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 46%;
+}
+
+
+.container{
+    background-color:none;
+
+}
+
+h2{
+    color: #460a08;
+    text-align: center;
+    
+}
+
+.cont2{
+    background-color: rgba(36, 0, 0, 0.671);
+    width: 65%;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+.cont2 a{
+    color:#ffe8e7;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+label img{
+    width: 70px;
+    height: 70px;
+    margin-left: 35%;
+    margin-top: 5px;
+}
+
+.cont2 .figura{
+    color: #ffe8e7;
+    font-size: 20px;
+    font-weight: 90;
+    font-family: sans-serif;
+    margin-left: 12%;
+}
+.cont2 button{
+    background-color: #610d0d;
+    width: 100px;
+    height: 60px;
+    border-radius: 100%;
+    margin: 1px 1px 2px 225px;
+}
+
+.cont2 button:hover{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.cont2 input[type="number"]{
+    background-color: #ffffff;
+    font-size: 25px;
+    color: #3b2121;
+    width: 350px;
+    outline: none;
+    border:none;
+    padding: 6px;
+    margin: 10px 5px 10px 270px;
+    border-radius: 3px;
+}
+
+
+.modal-contenido{
+    background-color: rgb(236, 173, 173);
+    width: 900px;
+    padding: 10px 10px;
+    margin: 10% auto;
+    position: relative;
+    border-radius: 6px;
+}
+
+.modal{
+    height: 130vh;
+    border-radius: 0px;
+    background-color: rgba(175, 53, 53, 0.596);
+    align-content: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 1s;
+}
+
+#miModal:target{
+    opacity:2;
+    pointer-events:auto;
+}
+
+#miModal2:target{
+    opacity:2;
+    pointer-events:auto;
+}
+
+#miModal3:target{
+    opacity:2;
+    pointer-events:auto;
+}
+
+#miModal4:target{
+    opacity:2;
+    pointer-events:auto;
+}
+
+#miModal5:target{
+    opacity:2;
+    pointer-events:auto;
+}
+
+#miModal6:target{
+    opacity:2;
+    pointer-events:auto;
+}
+
+#miModal7:target{
+    opacity:2;
+    pointer-events:auto;
+}
+
+#miModal8:target{
+    opacity:2;
+    pointer-events:auto;
+}
+
+.modal-contenido button{
+    width: 100px;
+    height: 40px;
+    border-radius: 100%;
+    margin: 5px 5px 5px 230px;
+}
+
+.modal-contenido button:hover{
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 5px 5px 5px 200px;
+    font-family: sans-serif;
+}
+
+.modal-contenido a{
+    text-decoration: none;
+    color: rgb(245, 212, 212);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.circulotitle{
+    color: #000000;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-align: center;
+}
+.circulotitle2{
+    color: #000000;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.cuadradotitle{
+    color: #000000;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.cuadradotitle2{
+    color: #000000;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.triangulotitle{
+    color: #000000;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.triangulotitle2{
+    color: #000000;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.rectangulotitle{
+    color: #000000;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.rectangulotitle2{
+    color: #000000;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.modal-contenido .label1{
+    color: #000000;
+    font-size: 20px;
+    font-weight: 40;
+    font-family: sans-serif;
+    margin-left: 350px;
+}
+
+.modal-contenido .label2{
+    color: #000000;
+    font-size: 20px;
+    font-weight: 550;
+    font-family: sans-serif;
+    margin-left: 250px;
+}
+
+.modal-contenido .label3{
+    color: #000000;
+    font-size: 20px;
+    font-weight: 550;
+    font-family: sans-serif;
+    margin-left: 250px;
+}
+
+.modal-contenido .label4{
+    color: #423131;
+    font-size: 20px;
+    font-weight: 550;
+    font-family: sans-serif;
+    margin-left: 250px;
+}
+
+.modal-contenido .relevantes{
+    margin: 1px 1px 50px 350px;
+    width: 20%;
+}
